@@ -35,7 +35,7 @@ function writePassword() {
   let password = "";
  
   //used a for loop to generate random characters
-  
+
   for (let i = 0; i < allCharacters.length; i++) {
     let randomIndex = Math.floor(Math.random() * allCharacters.length);
     let randomChar = allCharacters.charAt(randomIndex);
